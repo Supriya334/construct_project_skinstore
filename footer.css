@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato-Light",Helvetica,Arial,sans-serif;
+}
+.section1{
+    /* width: 90%; */
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 20px;
+}
+.cont{
+    /* border: 1px solid black; */
+    width: 80%;
+    padding: 20px;
+}
+.btn1>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    padding: 20px;
+    border: none;
+    background-color: #333333;
+    color: white;
+}
+.btn1>button:hover{
+    background-color: rgb(6, 184, 184);
+    color: black;
+}
+
+.signupPara{
+    margin-bottom: 10px;
+}
+.connect{
+    margin-bottom: 10px;
+}
+
+.flex-logos{
+    display: flex;
+    gap: 10px;
+}
+.flex-logos>img{
+
+    width: 40px;
+}
+.flex-logos>img:hover{
+    filter: brightness(10);
+    filter: saturate(5);
+}
+.section2{
+    margin-top: 5px;
+    /* width: 90%; */
+    padding: 25px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% repeat(3, 1fr);
+    gap: 20px;
+}
+.row>.p:hover{
+    background-color: rgba(153, 153, 153, 0.164);
+}
+.area1{
+    grid-column: span 1;
+}
+
+.area1>h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.equal>h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.equal>p{
+    font-size: 14px;
+    line-height: 2.5rem;
+    padding: 3px;
+    font-weight: 100;
+    color: #414141c9;
+    
+}
+.equal>p:hover{
+    /* padding: 2px; */
+    background-color: rgba(153, 153, 153, 0.164);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 100,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+.row>.p{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    line-height: 3rem;
+    width: 50%;
+    
+}
+.row>.p>p{
+    color: #414141c9;
+
+}
+
+.flex2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+}
+.box1{
+    width: 90%;
+}
+.box1>h1{
+    margin: 10px 0 10px 0;
+    font-size: 38px;
+    color: #333333;
+}
+.box2{
+    width: 90%;
+    /* display: flex; */
+}
+.box2>p{
+    margin: 10px 0 10px 0;
+}
+.box>p{
+    color: #414141c9;
+}
+.section3{
+    padding: 20px;
+}
+
+@media all and (min-width: 0px) and (max-width: 750px){
+    .section1{
+        flex-direction: column;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex2{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+}

@@ -1,0 +1,372 @@
+.blank{
+    height: 40px;
+
+    color: rgb(103, 102, 102);
+    border: 2px solid rgb(217, 216, 216);
+}
+.usd{
+    height: 27px;
+    width: 8%;
+    margin-left: 85%;
+    border: 50%;
+    display:flex;
+    flex-wrap: nowrap;
+}
+.usd > img{
+    border-radius: 50%;
+    width: 20%;
+   height: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid red; */
+margin-top: 3%;
+justify-content: space-around;
+}
+.logo, .search{
+    width: 90%;
+    /* border: 2px solid blue; */
+}
+#skin{
+    font-size:58px;
+}
+.logo > p{
+    /* font-size: 12px; */
+    width: 54%;
+}
+.search{
+    /* border: 2px solid rgb(14, 3, 3); */
+    display: flex;
+    height: 38px;
+    margin: auto;
+    box-shadow:  rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+.search > input{
+    width: 93%;
+    height: 38px;
+    border: none;
+    padding: 10px;
+font-size: 18px;
+}
+.bx {
+    font-size: 24px;
+    margin: auto;
+    color: grey;
+}
+.profile{
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-left: 53px;
+    margin: auto;
+}
+.profile>.account>p>a{
+    text-decoration: none;
+  
+}
+.profile>.cart>p>a{
+    text-decoration: none;
+
+}
+.b{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+height: 48px;
+width: 100%;
+margin: auto;
+background-color: rgb(226, 222, 222);
+border: 1px solid rgb(132, 131, 131);
+margin-bottom: 1%;
+
+}
+.b >p>a{
+    color: black;
+    text-decoration: none;
+}
+.b>p>a:hover{
+    text-decoration: underline;
+}
+
+.black{
+    height: 40px;
+    width: 89%;
+    margin: auto;
+    border: 2px solid black;
+background-color: black;
+}
+.black>p{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+  .carousel-inner  {
+    width: 1500px; /* Set the width to 100% to fill the carousel container */
+    height: 500px; /* Set the desired height */
+   /* margin: auto; */
+   margin: auto;
+   margin-top: 1%;
+  }
+
+
+
+
+  /* shop by category */
+
+
+  h3{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .circle{
+    display: flex;
+    width: 80%;
+    /* border: 2px solid red; */
+    height: 250px;
+    margin: auto;
+    gap:20px;
+    display: flex;
+    /* border: 2px solid red; */
+  }
+  .categories{
+    height: 200px;
+    width: 15%;
+  }
+  .categories > img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .gift{
+display: flex;
+  }
+  .sets{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .ribbon{
+    height: 600px;
+  }
+  .ribbon > img{
+    height: 100%;
+    width: 100%;
+  }
+.shop{
+  width: 99%;
+  /* border: 2px solid blue; */
+}
+.shop>h4,p{
+  text-align: center;
+}
+.shop>button{
+  margin-left: 199px;
+  border: 1px solid black;
+  padding: 3px;
+  background-color: white;
+}
+.shop>button:hover{
+  background-color: aliceblue;
+}
+  
+h3{
+  margin-top: 70px;
+}
+.blacki{
+   height: 350px;
+    width: 90%;
+    margin: auto;
+ 
+}
+.blacki >img{
+    width: 100%;
+    
+}
+
+
+
+.blue{
+    display: flex;
+    height: 590px;
+}
+
+.creams{
+    height: 480px;
+    width: 90%;
+}
+.creams>img{
+    height: 100%;
+    width: 100%;
+}
+
+/* .serums{
+    display: flex;
+    height: 450px;
+    width: 90%;
+}
+.quickbuy{
+    height: 400px;
+    width: 50%;
+}
+.quicebuy>img{
+    /* height:100%; */
+    /* width: 100%;
+} */
+ 
+
+
+.imagedown{
+    width: 99%;
+    margin: auto;
+}
+.imagedown>img{
+    width: 100%;
+    
+}
+
+
+.menu-bar{
+    box-shadow: rgba(10, 10, 10, 0.9) 0px 2px 8px 0px;
+width: 100%;
+margin: auto;
+}
+.menu-bar>ul>li{
+    padding: 5px;
+    /* transition: all .5s; */
+}
+.menu-bar>ul>li:hover{
+    background-color: rgb(65, 65, 65);
+    padding: 5px;
+}
+.menu-bar>ul>li:hover>a{
+    color: rgb(234, 233, 233);
+}
+.menu-bar>ul{
+    margin-left: 6vw;
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    width: 70vw;
+}
+.menu-bar a{
+    text-decoration: none;
+    color: black;
+}
+.sub-menu1{
+  /* color: blue; */
+    display: none;
+
+    
+}
+.menu-bar li:hover .sub-menu1{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    width: 90%;
+    height: 17vh;
+    box-shadow: rgba(12, 12, 12, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(255, 255, 255);
+
+}
+.menu-bar li:hover .sub-menu1 ul {
+    width: 99%;
+    height: 20px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+.menu-bar li:hover .sub-menu1 ul div{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+}
+.menu-bar li:hover .sub-menu1 div>div{
+    display: flex;
+    width: 80%;
+}
+.menu-bar li:hover .sub-menu1 div li{
+    padding: 7px;
+    
+}
+.menu-bar li:hover .sub-menu1 div li:hover{
+    background-color: rgb(202, 201, 201);
+}
+.sub-menu2{
+    display: none;
+    background-color: white;
+}
+.menu-bar li:hover .sub-menu2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    position: absolute;
+    z-index: 999;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap:20px 20px;
+}
+.head{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.sub-menu3{
+    display: none;
+    background-color: white;
+}
+.menu-bar li:hover .sub-menu3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: absolute;
+    z-index: 999;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap:20px 20px;
+}
+.sub-menu4{
+    display: none;
+    background-color: white;
+}
+.menu-bar li:hover .sub-menu4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: absolute;
+    z-index: 999;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap: 20px 20px;
+}
+.menu-bar li:hover .sub-menu4 img{
+    width: 100%;
+}
+.menu-bar li:hover .sub-menu4 div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.menu-bar li:hover .sub-menu4 p{
+    padding: 8px 0;
+    font-weight: 700;
+    transition: all .5s;
+}
+.menu-bar li:hover .sub-menu4 div:hover{
+    transform: translateY(-5px);
+}
